@@ -1,0 +1,14 @@
+##### 17/Março/2024 #####
+
+- Aula adicionada
+Aulas > Python_I.ipynb
+
+- Lista de exemplos resolvida adicionada
+Aulas > Exemplos > Python_I.ipynb
+
+
+
+##### 18/Março/2024 #####
+
+- Repositório no GitHub
+https://github.com/GabrielWendell/Intro_Python-Science
