@@ -1,0 +1,68 @@
+Deixando seu computador no ponto para o minicurso ;)
+
+# PASSO 1
+Abra o terminal do seu computador. 
+Para usuários do Windows, basta digitar "cmd" ou "powershell" na busca do Windows (preferência pelo powershell).
+
+# PASSO 2
+Digite "python --version" no terminal e verifique se você obtém como resposta a versão do Python que está instalado em sua máquina.
+Caso você obtenha uma mensagem do tipo "Python not found", digite "python3 --version" no terminal e verifique se dessa vez aparecesse a versão do Python.
+Caso o Python não esteja instalado, vá até o PASSO * antes de prosseguir para o PASSO 3.
+
+# PASSO 3
+Digite "pip --version" no terminal e verifique se o pip está instalado. Se ele estiver instalado, você deve obter a versão do pip que está instalado em sua máquina.
+Em seguida, digite "pip list" e veja as bibliotecas que estão instaladas no seu computador. 
+Verifique se as bibliotecas estão instaladas: IPython, jupyter, numpy, matplotlib, pandas, scipy.
+Se alguma dessas bibliotecas não estiver instalada, siga para o PASSO 4. 
+
+# PASSO 4
+Se as bibliotecas mencionadas no passo anterior não estiverem instaladas, basta digitar "pip install nome_da_biblioteca" no seu terminal, dar Enter e aguardar o final da instalação.
+Por exemplo, para instalar todas as bibliotecas de uma vez, basta digitar o comando abaixo. Como são várias bibliotecas que estarão sendo instaladas, pode demorar um pouco...
+"pip install ipython jupyter numpy matplotlib pandas scipy"
+
+# PASSO 5
+Para saber se tudo correu bem e está funcionando direito, digite "pip list" no seu terminal e veja se as bibliotecas mencionadas no PASSO 4 aparecem na lista.
+Para abrir o Notebook do Jupyter, basta digitar "jupyter notebook" no seu terminal. Você saberá que está tudo certo quando o jupyter abrir um navegador de documentos no seu navegador padrão.
+Caso não abra nada no seu navegador padrão, olhe ao fundo do output gerado e veja se você encontra um link web. Copie-o e cole-o no seu navegador. O link será algo do tipo:
+
+" To access the server, open this file in a browser:
+        file:///C:/Users/Gabriel%20Wendell/AppData/Roaming/jupyter/runtime/jpserver-12192-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/tree?token=d4b2fab58835c73f05ebad48d6b669f01b4473f87620188a
+        http://127.0.0.1:8889/tree?token=d4b2fab58835c73f05ebad48d6b669f01b4473f87620188a"
+
+Se ao digitar o "jupyter notebook" você receber uma mensagem de erro do tipo "Jupyter não é reconhecido como um comando interno" ou algo do gênero, digite o seguinte comando no seu terminal:
+"python -m jupyter notebook"
+Feito isso, você deve conseguir abrir o jupyter no seu navegador normalmente.
+
+
+
+Com tudo isso feito, sua máquina agora estará no ponto para seguir nas aulas do nosso minicurso. 
+Não se esqueça de levar sua máquina para as aulas sempre que possível e um cafezinho. Afinal, programação e café sempre combinam.
+=D
+
+
+
+##################################################
+
+
+
+# PASSO *
+Para instalar o Python, vá até o link: https://www.python.org/downloads/windows/ e selecione qual instalador Python você deseja.
+Minha sugestão é que você instale uma versão entre a 3.9.18 e a 3.11.6. 
+Clique em "Download Windows installer (64-bit)" e depois execute o instalar que será baixado.
+
+# PASSO **
+1. Ao abrir o instalador do Python, a primeira coisa que você deve fazer é selecionar a caixinha "Add python.exe to PATH" que aparece na parte inferior do instalador.
+2. Em seguida, selecione "Customize installation"
+3. Na aba seguindo do instalar, verifique se todas as caixinhas estão selecionadas. Se alguma não tiver, selecione-a. A mais importante dessas caixinhas é a "pip". 
+4. Na aba seguinte, selecione todas as caixinhas que estiverem vazias (a única que não precisa necessariamente estar selecionada é a "Install Python for all users").
+5. Clique em "install" e aguarde o fim da instalação.
+6. Ao término da instalação, reinicie a sua máquina.
+7. Assim que a sua máquina reiniciar, volte ao PASSO 1 e siga adiante.
+
+
+
+
+
+ 
